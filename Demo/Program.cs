@@ -145,6 +145,30 @@ namespace Demo
 
             #endregion
 
+            #region Generlic Collections - Stack
+            //Stack<int> stack = new Stack<int>();
+
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
+
+            //Console.WriteLine($"{stack.Capacity}, {stack.Count}");
+            //stack.Push(5);
+            //Console.WriteLine($"{stack.Capacity}, {stack.Count}");
+
+            //foreach (var item in stack)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //stack.Pop();
+            //    foreach (var item in stack)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
 
         }
     }
