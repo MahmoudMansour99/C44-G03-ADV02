@@ -98,6 +98,33 @@ namespace Demo
 
             #endregion
 
+            #region Generic Collections [List]
+            //List<int> list = new List<int>();
+            //Console.WriteLine($"Capacity: {list.Capacity}, Count: {list.Count}");
+
+            #region Add Element
+            //list.Add(1);
+            //Console.WriteLine($"Capacity: {list.Capacity}, Count: {list.Count}");
+
+            ////list.AddRange(new int[] { 2, 3, 4 });
+            //list.AddRange(2, 3, 4 );
+            //Console.WriteLine($"Capacity: {list.Capacity}, Count: {list.Count}");
+
+            //list.Insert(1, 10);
+            //Console.WriteLine($"Capacity: {list.Capacity}, Count: {list.Count}");
+
+            //list.TrimExcess();
+            //Console.WriteLine($"Capacity: {list.Capacity}, Count: {list.Count}");
+
+            ////list.Remove(1);
+            ////list.RemoveAt(4);
+            //list.RemoveRange(0, 2);
+
+
+
+            #endregion
+            #endregion
+
 
         }
     }
