@@ -169,7 +169,34 @@ namespace Demo
             //}
             #endregion
 
+            #region Generic Collections - Queue
+            Queue<int> queue = new Queue<int>();
+            Console.WriteLine($"{queue.Capacity}, {queue.Count}");
 
+            queue.Enqueue( 1 );
+            queue.Enqueue( 2 );
+            queue.Enqueue( 3 );
+            queue.Enqueue( 4 );
+            queue.Enqueue( 5 );
+
+            Console.WriteLine($"{queue.Capacity}, {queue.Count}");
+
+            foreach (var item in queue)
+            {
+                Console.WriteLine(item);
+            }
+
+            queue.Dequeue();
+
+            Console.WriteLine($"{queue.Capacity}, {queue.Count}");
+
+            foreach (var item in queue)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            #endregion
         }
     }
 }
