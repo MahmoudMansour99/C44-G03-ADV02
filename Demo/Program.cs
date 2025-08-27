@@ -125,6 +125,26 @@ namespace Demo
             #endregion
             #endregion
 
+            #region Generlic Collections - Linked List
+            //LinkedList<int> linkedList = new LinkedList<int>();
+            //LinkedListNode<int> FirstNode = linkedList.AddFirst(10);
+
+            //LinkedListNode<int> SecondNode = linkedList.AddFirst(20);
+
+            //LinkedListNode<int> node = new LinkedListNode<int>(30);
+            //linkedList.AddFirst(node);
+
+            //LinkedListNode<int> node02 = new LinkedListNode<int>(100);
+
+
+            //linkedList.AddAfter(SecondNode, node02);
+            //foreach (var item in linkedList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
 
         }
     }
